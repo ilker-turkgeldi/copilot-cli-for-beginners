@@ -10,6 +10,7 @@ It can add, remove, and list books. Also mark them as read.
 ## Current Features
 
 * Reads books from a JSON file (our database)
+* Includes a `LinearEquationSolver` example for solving linear systems up to 5 unknowns
 * Input checking is weak in some areas
 * Some tests exist but probably not enough
 
@@ -20,8 +21,10 @@ It can add, remove, and list books. Also mark them as read.
 * `Program.cs` - Main CLI entry point
 * `Models/Book.cs` - Book model class
 * `Services/BookCollection.cs` - BookCollection class with data logic
+* `Services/LinearEquationSolver.cs` - Gaussian-elimination solver with a `SolutionVector` property
 * `data.json` - Sample book data
 * `Tests/BookCollectionTests.cs` - xUnit tests
+* `Tests/LinearEquationSolverTests.cs` - xUnit tests for the solver
 
 ---
 
